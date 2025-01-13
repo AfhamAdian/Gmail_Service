@@ -22,13 +22,17 @@ This project demonstrates how to send emails using Node.js and the `nodemailer` 
     ```
 
 3. Create a  file in the root directory and add your email credentials:
+   As google secured policy 2022, you cannot authorize it with your normal password.
+   ```
+   Go to 2 step verification -> App Password -> Generate App Password .
+   ```
+    Use this App Password as Password in .env
+   
     ```
     EMAIL=your-email@gmail.com
     PASSWORD=your-email-password
     ```
-   As google secured policy 2022, you cannot authorize it with your normal password.
-   Go to 2 step verification -> App Password -> Generate app password and use as email-password.
-5. Place the files you want to attach (`resume.pdf` and ) in the root directory of the project.
+4. Place the files you want to attach (`resume.pdf` and ) in the root directory of the project.
 
 ## Usage
 
