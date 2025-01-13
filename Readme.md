@@ -32,7 +32,7 @@ This project demonstrates how to send emails using Node.js and the `nodemailer` 
     EMAIL=your-email@gmail.com
     PASSWORD=your-email-password
     ```
-4. Place the files you want to attach (`resume.pdf` and ) in the root directory of the project.
+4. Place the files you want to attach (`resume.pdf` and ) in the attachments directory of the project.
 
 ## Usage
 

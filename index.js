@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 const fs = require('fs');
+const path = require('path');
 dotenv.config();
 
 
@@ -35,8 +36,8 @@ const recieverEMail = 'afhamadian.03@gmail.com';
 const mailSubject = 'Sending Email using Node.js';
 const mailBody = 'That was easy!';
 
-const resumePdf = fs.readFileSync('resume.pdf');
-const dpGithubJpg = fs.readFileSync('DP_Github.jpg');
+const resumePdf = fs.readFileSync(path.join(__dirname, 'attachments', 'resume.pdf'));
+const dpGithubJpg = fs.readFileSync(path.join(__dirname, 'attachments', 'DP_Github.jpg'));
 
 
 const mailOptions = {
