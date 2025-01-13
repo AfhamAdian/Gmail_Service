@@ -12,8 +12,8 @@ This project demonstrates how to send emails using Node.js and the `nodemailer` 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/nodejs-email-sender.git
-    cd nodejs-email-sender
+    git clone https://github.com/AfhamAdian/Gmail_Service.git
+    cd Gmail_Service
     ```
 
 2. Install the dependencies:
@@ -26,8 +26,9 @@ This project demonstrates how to send emails using Node.js and the `nodemailer` 
     EMAIL=your-email@gmail.com
     PASSWORD=your-email-password
     ```
-
-4. Place the files you want to attach (`resume.pdf` and ) in the root directory of the project.
+   As google secured policy 2022, you cannot authorize it with your normal password.
+   Go to 2 step verification -> App Password -> Generate app password and use as email-password.
+5. Place the files you want to attach (`resume.pdf` and ) in the root directory of the project.
 
 ## Usage
 
